@@ -1,2 +1,2 @@
 # leetcode
-leetcode
+code for leetcode
