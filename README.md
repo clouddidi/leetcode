@@ -1,5 +1,5 @@
 # leetcode
 code for leetcode
 
-Two Points:
+two_pointers:
 - [LC917]reverse only letters
