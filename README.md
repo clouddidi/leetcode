@@ -1,5 +1,10 @@
 # leetcode
 code for leetcode
 
-two_pointers:
-- [LC917]reverse only letters
+Two_Pointers:
+-[LC917]reverse only letters
+
+Other:
+-[LC252]meeting rooms
+-[LC670]maximum swap
+
