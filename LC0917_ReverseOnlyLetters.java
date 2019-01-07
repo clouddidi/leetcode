@@ -1,7 +1,7 @@
 import java.lang.annotation.*;
 
-@TagAnnotation(tags={"two_pointers"})
-public class LC917_ReverseOnlyLetters {
+@TagAnnotation(tags={"Two_Pointers"})
+public class LC0917_ReverseOnlyLetters {
     private boolean isLetter(char c) {
         if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
             return true;
@@ -28,11 +28,11 @@ public class LC917_ReverseOnlyLetters {
     }
 
     public static void main(String[] args) {
-        LC917_ReverseOnlyLetters solution = new LC917_ReverseOnlyLetters();
+        LC0917_ReverseOnlyLetters solution = new LC0917_ReverseOnlyLetters();
         String result = solution.reverseOnlyLetters("7_28]");
         System.out.println(result);
 
-        Class aClass = LC917_ReverseOnlyLetters.class;
+        Class aClass = LC0917_ReverseOnlyLetters.class;
         Annotation annotation = aClass.getAnnotation(TagAnnotation.class);
         System.out.println("tags: " + String.join(",", ((TagAnnotation)annotation).tags()));
     }
