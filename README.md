@@ -2,9 +2,10 @@
 code for leetcode
 
 Two_Pointers:
--[LC917]reverse only letters
+-[LC0917]reverse only letters
+-[LC0003]longest substring with no duplicates
 
 Other:
--[LC252]meeting rooms
--[LC670]maximum swap
+-[LC0252]meeting rooms
+-[LC0670]maximum swap
 
